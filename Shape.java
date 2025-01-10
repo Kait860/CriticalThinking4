@@ -81,13 +81,14 @@ class Triangle extends Shape{
     //create method to retrieve area
     @Override
     public double area(){
-        
+        double s = (side1 + side2 + side3) / 2;
+        return Math.sqrt(s *(s - side1) * (s - side2) * (s - side3));
     }
 
     //create method to retrieve perimeter
     @Override
     public double perimeter(){
-        
+        return side1 + side2 + side3;
     }
 
     //create method that prints the area and perimeter
