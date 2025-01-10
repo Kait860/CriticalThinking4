@@ -96,3 +96,9 @@ class Triangle extends Shape{
         return "Triangle Area: " + area() + " and  Perimeter: " + perimeter() + "\n";
     }
 }
+
+class ShapeArray {
+    public static void main(String[] args) throws Exception {
+        System.out.println("Hello, World!");
+    }
+}
