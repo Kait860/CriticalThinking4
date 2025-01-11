@@ -31,7 +31,7 @@ class Rectangle extends Shape{
     //create method that prints the area and perimeter
     @Override
     public String toString(){
-        return "Rectangle Area: " + area() + " and  Perimeter: " + perimeter() + "\n";
+        return "Rectangle Area: " + area() + " and  Perimeter: " + perimeter();
     }
 }
 
@@ -60,7 +60,7 @@ class Circle extends Shape{
     //create method that prints the area and perimeter
     @Override
     public String toString(){
-        return "Circle Area: " + area() + " and  Perimeter: " + perimeter() + "\n";
+        return "Circle Area: " + area() + " and  Perimeter: " + perimeter();
     }
 }
 
@@ -94,6 +94,6 @@ class Triangle extends Shape{
     //create method that prints the area and perimeter
     @Override
     public String toString(){
-        return "Triangle Area: " + area() + " and  Perimeter: " + perimeter() + "\n";
+        return "Triangle Area: " + area() + " and  Perimeter: " + perimeter();
     }
 }
